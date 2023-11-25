@@ -1,15 +1,11 @@
 <template>
   <c-header />
-  <sidenav variant="fixed" title="Library" main>
-    content here
-    <template #main>
-      <slot />
-    </template>
-  </sidenav>
+
+  <c-footer />
 </template>
 
 <script setup lang="ts">
-import { cHeader, sidenav } from "uilib";
+import { cHeader, cFooter, sidenav } from "uilib";
 </script>
 
 <style>
