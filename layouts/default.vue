@@ -1,13 +1,12 @@
 <template>
-  <c-header />
-
-  <c-footer />
+  test
+  <n-button label="smt" />
+  <slot />
 </template>
 
 <script setup lang="ts">
-import { cHeader, cFooter, sidenav } from "uilib";
+import { nButton } from "uilib";
 </script>
-
 <style>
 .bd-gutter {
   display: grid;

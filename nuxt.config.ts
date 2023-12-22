@@ -1,7 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import { styles } from "uilib";
+
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  logLevel: "info",
   app: {
     head: {
       meta: [
@@ -13,7 +14,6 @@ export default defineNuxtConfig({
           charset: "utf-8",
         },
       ],
-      style: [styles],
     },
   },
 });
