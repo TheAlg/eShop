@@ -1,5 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
+import { ClientOnly } from "#build/components";
+
 export default defineNuxtConfig({
   devtools: { enabled: true },
   logLevel: "info",
@@ -14,6 +16,8 @@ export default defineNuxtConfig({
           charset: "utf-8",
         },
       ],
+      //script: [{ src: "uilib/assets/bootstrapjs" }],
     },
   },
+  css: ["uilib/assets/css"],
 });

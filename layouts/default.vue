@@ -1,13 +1,16 @@
 <template>
-  test
-  <n-button label="smt" />
+
+  <Header  />
   <slot />
+  <Footer />
 </template>
 
 <script setup lang="ts">
-import { nButton } from "uilib";
+import { Header, Footer} from "uilib";
+
 </script>
 <style>
+
 .bd-gutter {
   display: grid;
   grid-template-areas: "sidebar main";
